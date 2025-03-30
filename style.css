@@ -800,9 +800,8 @@ html {
         grid-template-columns: 1fr;
     }
 
-    .contact-info,
-    .contact-form {
-        padding: 1rem;
+    .contact-info, .contact-form {
+        padding: 0.5rem;
     }
 
     footer {
@@ -842,15 +841,19 @@ html {
     }
 
     .header-content {
+      
         align-items: center;
         text-align: center;
     }
 
-    .header-img img {
-        height: 50px;
-        width: 60px;
+    nav{
+        margin-left: 70px;
     }
 
+    header{
+        display: flex;
+        justify-content: start;
+    }
     .header-text h1 {
         font-size: 1rem;
     }
@@ -863,10 +866,7 @@ html {
         grid-template-columns: 1fr;
     }
 
-    .contact-info,
-    .contact-form {
-        padding: 0.8rem;
-    }
+    
 
     footer {
         font-size: 0.7rem;
@@ -892,5 +892,14 @@ html {
 
     .hero-content {
         text-align: center;
+    }
+
+    .contact-item a {
+        
+        font-size: 1rem;
+    }
+
+    #contact{
+        padding: auto;
     }
 }
