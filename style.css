@@ -832,18 +832,15 @@ html {
         grid-template-columns: 1fr;
     }
 
-   
     .project-card {
         flex-direction: column;
     }
 
-    
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    
     .header-content {
         align-items: center;
         text-align: center;
