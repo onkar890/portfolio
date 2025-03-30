@@ -430,6 +430,7 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    width: 100%;
 }
 
 #projects {
@@ -557,19 +558,6 @@ footer {
 
 
 
-@media (max-width: 768px) {
-    html {
-        scroll-padding-top: 80px;
-    }
-
-    .hero {
-        margin-top: 80px;
-    }
-
-    .sec {
-        padding-top: 4rem;
-    }
-}
 
 .skills-container {
     display: flex;
@@ -630,33 +618,7 @@ footer {
     color: var(--bg-primary);
 }
 
-@media (max-width: 768px) {
-    .skills-container {
-        gap: 2rem;
-    }
 
-    .skills-category {
-        padding: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 1.5rem;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    body{
-        align-items:center;
-    }
-}
 
 .project-info ul {
     font-size: 0.9rem;
@@ -744,4 +706,106 @@ p {
 
 html {
     scroll-behavior: smooth;
+}
+
+
+
+@media (max-width: 768px) {
+    .skills-container {
+        gap: 2rem;
+    }
+
+    .skills-category {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        scroll-padding-top: 80px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .sec {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+   
+    
+}
+
+@media (max-width: 440px) {
+    .hero-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-content .description {
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .header-content {
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .header-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .header-text p {
+        font-size: 0.8rem;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
 }
