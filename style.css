@@ -810,9 +810,7 @@ html {
     }
 }
 
-/* For screens smaller than 423px */
 @media (max-width: 423px) {
-    /* Adjust hero section */
     .hero-content h1 {
         font-size: 1.1rem;
     }
@@ -830,25 +828,23 @@ html {
         gap: 0.5rem;
     }
 
-    /* Adjust skills grid */
     .skills-grid {
         grid-template-columns: 1fr;
     }
 
-    /* Adjust project cards */
+   
     .project-card {
         flex-direction: column;
     }
 
-    /* Adjust navbar */
+    
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    /* Adjust header */
+    
     .header-content {
-        flex-direction: column;
         align-items: center;
         text-align: center;
     }
